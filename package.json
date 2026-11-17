@@ -1,0 +1,28 @@
+{
+  "name": "smartbite-monorepo",
+  "version": "1.0.0",
+  "description": "SmartBite – Smart Food Ordering and Homemade Food Marketplace (MCA Major Project)",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:mobile": "cd mobile && npm start",
+    "seed": "cd backend && npm run seed",
+    "test:e2e": "cd backend && node test-e2e.js",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "react-native",
+    "expo",
+    "food-ordering",
+    "marketplace",
+    "freshbatch"
+  ],
+  "author": "SmartBite Core Engineering Team",
+  "license": "ISC"
+}
